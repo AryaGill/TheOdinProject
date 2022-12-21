@@ -1,4 +1,4 @@
-.container1{
+.header{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
@@ -31,26 +31,26 @@
     color: rgb(235, 235, 26);
 }
 
-.first {
+.header .body {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 90px;
 }
 
-.first .text {
+.header .body .text {
     padding-left: 20px;
 }
-.first .text h1{
+.header .body .text h1{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: extra-bold;
 }
-.first .text p {
+.header .body .text p {
     font-size: 18px;
     color: #E5E7EB;
 }
-.first .text button {
+.header .body .text button {
     display: block;
     text-align: center;
     width: 110px;
@@ -67,7 +67,7 @@
     text-decoration: none;
     font-weight: bold;
 }
-.first .image {
+.header .body .image {
     width: 500px;
     height: 250px;
 

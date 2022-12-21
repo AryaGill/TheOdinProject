@@ -1,0 +1,29 @@
+
+.navbar {
+    display: flex;
+    background-color: #1F2937;
+    color:  #E5E7EB;
+    align-items: center;
+    padding: 20px 0px 20px 100px;
+}
+.logo {
+    display: flex;
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-right: auto;
+}
+.header_links{
+    display: flex;
+    margin-left: auto;
+    padding-right: 100px;
+}
+.header_links a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+
+}
+.header_links a:hover {
+    color: rgb(235, 235, 26);
+}

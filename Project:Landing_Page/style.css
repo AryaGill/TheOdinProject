@@ -60,8 +60,7 @@
 }
 .information{
     background-color: white;
-    padding-top: 30px;
-    padding-left: 100px;
+    padding: 30px 100px 0px 100px;
 }
 .information .title{
     text-align: center;

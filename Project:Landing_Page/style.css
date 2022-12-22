@@ -58,3 +58,34 @@
     color: #3882F6;
     background-color: white;
 }
+.information{
+    background-color: white;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.information .title{
+    text-align: center;
+}
+.illustrations{
+    padding-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex:1;
+}
+.illustrations img{
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+    border-color: blue;
+    border-width: 4px;
+    border-style: outset;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.illustrations p{
+    width: 130px;
+    height: 100px;
+}

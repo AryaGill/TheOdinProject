@@ -88,3 +88,19 @@
     width: 130px;
     height: 100px;
 }
+.quote{
+    background-color: #E5E7EB;
+    padding: 50px 130px 50px 130px;
+}
+.quote .text{
+    text-align: left;
+    font-size: 32px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+
+}
+.quote .speaker{
+    text-align: right;
+    font-weight: bold;
+}

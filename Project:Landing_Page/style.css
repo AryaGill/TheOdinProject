@@ -150,3 +150,9 @@
     background-color: white;
     color: blue;
 }
+.footer{
+    padding: 20px;
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+}

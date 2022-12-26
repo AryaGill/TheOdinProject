@@ -15,9 +15,13 @@ function playRound(playerSelection, computerSelection) {
         (computerSelection == "scissors" && playerSelection == "paper") ||
         (computerSelection == "paper" && playerSelection == "rock")
     )  {
-        return `You Lose! ${computerSelection} beats ${playerSelection}`;
+        return `You Lose! ${capitalize(computerSelection)} beats ${capitalize(playerSelection)}`;
     } else {
-        return `You Win! ${playerSelection} beats ${computerSelection}`
+        return `You Win! ${capitalize(playerSelection)} beats ${capitalize(computerSelection)}`
     }
+}
+
+function capitalize(str){
+    return (str[0].toUpperCase() + str.slice(1));
 }
 
